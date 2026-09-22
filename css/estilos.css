@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #222;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+main h1 {
+    font-size: 45px;
+
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 20px;
+}
